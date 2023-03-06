@@ -1,8 +1,8 @@
 local box_stuff = {
-    {name = "myranks:legendaire_grade", chance = 3, max = 1},
-    {name = "myranks:diamant_grade", chance = 5, max = 1},
-    {name = "myranks:ruby_grade", chance = 1, max = 1},
-    {name = "myranks:bronze_grade1", chance = 10, max = 1},
+    {name = "default:diamond", chance = 3, max = 10},
+    {name = "default:gold_ingot", chance = 5, max = 15},
+    {name = "default:steel_ingot", chance = 1, max = 20},
+    {name = "default:bronze_ingot", chance = 10, max = 30},
 }
 
 minetest.register_tool("box:key", {
